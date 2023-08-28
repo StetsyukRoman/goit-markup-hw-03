@@ -18,7 +18,7 @@ ul, ol
     margin-bottom: 0;
 }
 
-img
+.img
 {
     display: block;
 }
@@ -41,17 +41,20 @@ hidden-main
 .container
 {
     max-width: 1158px;
-    padding-left: 0.15px;
-    padding-right: 0.15px;;
+    padding-left: 15px;
+    padding-right: 15px;;
     margin: auto;
 }
 /* Header */
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-container
 {
     display: flex;
     flex-shrink: 0;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav

@@ -213,7 +213,16 @@ button
 
 /* section advantages */
 
-.visually-hidden{
+.none-name
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden
+{
     position: absolute;
     overflow: hidden;
     clip: rect(0 0 0 0);
@@ -224,15 +233,15 @@ button
     border: 0;
 }
 
-.none-title-list{
-    padding-top: 120px;
-    padding-bottom: 120px;
+.none-title-list
+{
     display: flex;
     gap: 24px;
     justify-content: center;
 }
 
-.none-title-item{
+.none-title-item
+{
     flex-basis: calc((100%-72px)/4);
 }
 

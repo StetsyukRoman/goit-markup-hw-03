@@ -1,20 +1,54 @@
-.body {
+.body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
-a {
+a{
     text-decoration: none;
 }
 
-ul {
+ul, ol{
     list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
+
+hidden-main {
+    display: none;
+}
+
+.container{
+    max-width: 1160px;
+    padding: 0.14px;
+    margin: auto;
+}
 /* Header */
 
-.link-logo
+.header-container {
+display: flex;
+flex-shrink: 0;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo
 {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -23,6 +57,10 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+    margin-right: 76px;
 }
 
 .logo-studio 
@@ -46,7 +84,13 @@ ul {
     text-transform: uppercase;
 }
 
-.link-nav 
+.header-list{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header-link-item 
 {
     color: #2E2F42;
     font-size: 16px;
@@ -54,16 +98,18 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    padding: 24px 0;
 }
 
-.link-nav:hover,
-.link-nav:focus 
+.header-link-item:hover,
+.header-link-item:focus 
 {
     color: #404BBF;
 }
 
 
-.address 
+.header-address 
 {
     color: #434455;
     font-size: 16px;
@@ -71,9 +117,22 @@ ul {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: auto;
 }
 
-.link-address
+.header-container-address{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-right: 15px;
+    padding: 24px 0;
+}
+
+.header-link-address
 {
     color: #434455;
     font-size: 16px;
@@ -81,19 +140,22 @@ ul {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
-.link-address:hover,
-.link-address:focus 
+.header-link-address:hover,
+.header-link-address:focus 
 {
     color: #404bbf
 }
 
-/* Section Hero block */
+/* Section Hero */
 
 .hero-block
 {
     background: #2E2F42;
+    display: flex;
+    padding: 188px 0;
 }
 
 .hero-title
@@ -103,6 +165,12 @@ ul {
     letter-spacing: 0.02em;
     line-height: 1.07;
     text-align: center;
+    max-width: 496px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .order-service
@@ -111,10 +179,18 @@ ul {
     background: #4D5AE5;
     font-family: Roboto, sans-serif;
     font-size: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .order-service:hover,
@@ -123,27 +199,48 @@ ul {
     background-color: #404BBF
 }
 
-/* Section Advantages block */
+/* section advantages */
+
+.none-name{
+    padding: 120px 156px;
+}
+
+.none-title-list{
+    display: flex;
+    gap: 24px;
+}
+
+.none-title-item{
+    width: calc((100%-72px)/4);
+}
 
 .advantages 
 {
     color: #2E2F42;
+    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
+    line-height: 24px;
     letter-spacing: 0.02em;
-    line-height: 1.2;
+    display: flex;
+    align-items: flex-start;
+    width: 264px;
+    margin-bottom: 8px;
 }
 
 .advantages-text 
 {
     color: #434455;
+    font-family: Roboto;
     background-color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    display: flex;
+    width: 264px;
 }
 
-/* Section team */ 
+/* section team */ 
 
 .team 
 {
@@ -183,7 +280,7 @@ ul {
     text-align: center;
 }
 
-/* Section our portfolio */
+/* section portfolio */
 
 .portfolio 
 {

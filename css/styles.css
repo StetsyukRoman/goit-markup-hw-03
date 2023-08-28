@@ -228,13 +228,15 @@ button
 .visually-hidden
 {
     position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .none-title-list
@@ -348,7 +350,14 @@ button
 
 /* section portfolio */
 
-.portfolio 
+.our-portfolio-section{
+    background: #F4F4FD;
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+.our-portfolio-block 
 {
     color: #2E2F42;
     font-size: 36px;
@@ -363,19 +372,34 @@ button
     margin-right: auto;
     margin-bottom: 72px;
 }
-.portfolio-list{
+.our-portfolio-list{
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
     margin-bottom: 48px;
+    border-radius: 0px 0px 4px 4px;
 }
 
-.portfolio-photo{
+.our-portfolio-item{
+    background-color: #FFFFFF;
+    flex-basis: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-portfolio-photo{
     display: flex;
     margin-bottom: 32px;
 }
 
-.portfolio-app 
+.our-portfolio-container-texy{
+    display: block;
+    gap: 8px;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.our-portfolio-app 
 {
     color: #2E2F42;
     font-size: 20px;

@@ -28,6 +28,27 @@ h1, h2, h3, h4, h5, h6, p
     margin: 0;
 }
 
+h2
+{
+    display: block;
+    text-align: center;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h3
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 button
 {
     cursor: pointer;
@@ -40,9 +61,11 @@ button
     padding-right: 15px;;
     margin: auto;
 }
+
 /* Header */
 
 .header{
+    display: flex;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -273,12 +296,15 @@ button
 
 /* section team */ 
 
-.team-section
+.our-team-section
 {
     background: #F4F4FD;
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
 }
 
-.team-table 
+.our-team-table 
 {
     color: #2E2F42;
     font-size: 36px;
@@ -286,32 +312,38 @@ button
     text-transform: capitalize;
     line-height: 1.11;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 120px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 72px;
 }
 
-.team-list{
+.our-team-list
+{
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
 }
 
-.team-item {
+.our-team-item
+{
     background-color: #FFFFFF;
+    flex-basis: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 
-.team-photo {
+.our-team-photo
+{
     display: flex;
     margin-bottom: 32px;
 }
 
-.team-name 
+.container-our-team-text
+{
+    display: block;
+    gap: 8px;
+    align-items: center;
+}
+
+.our-team-name 
 {
     color: #2E2F42;
     font-size: 20px;
@@ -319,21 +351,15 @@ button
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 8px;
 }
 
-.team-job 
+.our-team-job 
 {
     color: #434455;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 32px;
 }
 
 /* section portfolio */

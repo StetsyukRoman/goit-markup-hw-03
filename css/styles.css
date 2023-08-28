@@ -201,17 +201,15 @@ flex-shrink: 0;
 
 /* section advantages */
 
-.none-name{
-    padding: 120px 156px;
-}
-
 .none-title-list{
+    padding: 120px 156px;
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 .none-title-item{
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 .advantages 
@@ -242,12 +240,12 @@ flex-shrink: 0;
 
 /* section team */ 
 
-.team 
+.team-section
 {
     background: #F4F4FD;
 }
 
-.table-team 
+.team-table 
 {
     color: #2E2F42;
     font-size: 36px;
@@ -255,13 +253,31 @@ flex-shrink: 0;
     text-transform: capitalize;
     line-height: 1.11;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
 }
 
-.link-team {
+.team-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.team-item {
     background-color: #FFFFFF;
 }
 
-.name-team 
+.team-photo {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.team-name 
 {
     color: #2E2F42;
     font-size: 20px;
@@ -269,15 +285,21 @@ flex-shrink: 0;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 
-.job-team 
+.team-job 
 {
     color: #434455;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
 }
 
 /* section portfolio */
@@ -290,6 +312,23 @@ flex-shrink: 0;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+.portfolio-list{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+
+.portfolio-photo{
+    display: flex;
+    margin-bottom: 32px;
 }
 
 .portfolio-app 
@@ -299,6 +338,10 @@ flex-shrink: 0;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 16px;
+    margin-bottom: 8px;
 }
 
 .portfolio-field-of-activity
@@ -307,6 +350,10 @@ flex-shrink: 0;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 16px;
+    margin-bottom: 32px;
 }
 
 /* Footer */ 
@@ -324,6 +371,10 @@ flex-shrink: 0;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+    margin-top: 100px;
 }
 
 .footer-web 
@@ -354,4 +405,8 @@ flex-shrink: 0;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    max-width: 264px;
+    justify-content: flex-start;
+    margin-bottom: 100px;
 }

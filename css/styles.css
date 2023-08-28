@@ -21,32 +21,13 @@ ul, ol
 img
 {
     display: block;
+    max-width: 100%; 
+    height: auto;
 }
 
 h1, h2, h3, h4, h5, h6, p
 {
     margin: 0;
-}
-
-h2
-{
-    display: block;
-    text-align: center;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-h3
-{
-    display: block;
-    text-align: center;
-    margin-bottom: 8px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 button
@@ -336,11 +317,13 @@ button
     margin-bottom: 32px;
 }
 
-.container-our-team-text
+.our-team-container-text
 {
     display: block;
     gap: 8px;
     align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .our-team-name 
@@ -351,6 +334,7 @@ button
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px
 }
 
 .our-team-job 

@@ -1,45 +1,38 @@
-.body
-{
+.body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
-a
-{
+a{
     text-decoration: none;
 }
 
-ul, ol
-{
+ul, ol{
     list-style: none;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-img
-{
-    display: block;
-}
-
-h1, h3, h4, h5, h6
-{
+h1, h3, h4, h5, h6{
     margin: 0;
 }
 
-button
-{
+button{
     cursor: pointer;
 }
 
-p {
+p{
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.container
-{
+img{
+    display: block;
+}
+
+.container{
     max-width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
@@ -53,20 +46,17 @@ p {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container
-{
+.header-container{
     display: flex;
     flex-shrink: 0;
 }
 
-.header-nav
-{
+.header-nav{
     display: flex;
     align-items: center;
 }
 
-.header-logo
-{
+.header-logo{
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -80,8 +70,7 @@ p {
     margin-right: 76px;
 }
 
-.logo-studio 
-{
+.logo-studio{
     color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
@@ -91,8 +80,7 @@ p {
     text-transform: uppercase;
 }
 
-.studio
-{
+.studio{
     color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
@@ -102,15 +90,13 @@ p {
     text-transform: uppercase;
 }
 
-.header-list
-{
+.header-list{
     display: flex;
     gap: 40px;
     align-items: center;
 }
 
-.header-link-item 
-{
+.header-link-item{
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -122,13 +108,11 @@ p {
 }
 
 .header-link-item:hover,
-.header-link-item:focus 
-{
+.header-link-item:focus{
     color: #404BBF;
 }
 
-.header-address 
-{
+.header-address{
     color: #434455;
     font-size: 16px;
     font-style: normal;
@@ -150,8 +134,7 @@ p {
     padding: 24px 0;
 }
 
-.header-link-address
-{
+.header-link-address{
     color: #434455;
     font-size: 16px;
     font-style: normal;
@@ -162,22 +145,19 @@ p {
 }
 
 .header-link-address:hover,
-.header-link-address:focus 
-{
+.header-link-address:focus{
     color: #404bbf
 }
 
 /* Section Hero */
 
-.hero-block
-{
+.hero-block{
     background: #2E2F42;
     display: flex;
     padding: 188px 0;
 }
 
-.hero-title
-{
+.hero-title{
     color: #FFFFFF;
     font-size: 56px;
     letter-spacing: 0.02em;
@@ -191,8 +171,7 @@ p {
     margin-bottom: 48px;
 }
 
-.order-service
-{
+.order-service{
     color: #FFFFFF;
     background: #4D5AE5;
     font-family: Roboto, sans-serif;
@@ -213,23 +192,20 @@ p {
 }
 
 .order-service:hover,
-.order-service:focus 
-{
+.order-service:focus{
     background-color: #404BBF
 }
 
 /* section advantages */
 
-.none-name
-{
+.none-name{
     display: flex;
     justify-content: center;
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.visually-hidden
-{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -242,20 +218,17 @@ p {
     overflow: hidden;
 }
 
-.none-title-list
-{
+.none-title-list{
     display: flex;
     gap: 24px;
     justify-content: center;
 }
 
-.none-title-item
-{
+.none-title-item{
     flex-basis: calc((100%-72px)/4);
 }
 
-.advantages 
-{
+.advantages{
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
@@ -268,8 +241,7 @@ p {
     margin-bottom: 8px;
 }
 
-.advantages-text 
-{
+.advantages-text{
     color: #434455;
     font-family: Roboto;
     background-color: #FFFFFF;
@@ -282,16 +254,14 @@ p {
 
 /* section team */ 
 
-.our-team-section
-{
+.our-team-section{
     background: #F4F4FD;
     display: flex;
     justify-content: center;
     padding: 120px 0;
 }
 
-.our-team-table 
-{
+.our-team-table{
     color: #2E2F42;
     font-size: 36px;
     letter-spacing: 0.02em;
@@ -301,29 +271,25 @@ p {
     margin-bottom: 72px;
 }
 
-.our-team-list
-{
+.our-team-list{
     display: flex;
     gap: 24px;
     justify-content: center;
     border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-item
-{
+.our-team-item{
     background-color: #FFFFFF;
     flex-basis: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-photo
-{
+.our-team-photo{
     display: flex;
     margin-bottom: 32px;
 }
 
-.our-team-container-text
-{
+.our-team-container-text{
     display: block;
     gap: 8px;
     align-items: center;
@@ -331,8 +297,7 @@ p {
     padding-bottom: 32px;
 }
 
-.our-team-name 
-{
+.our-team-name{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -342,8 +307,7 @@ p {
     margin-bottom: 8px
 }
 
-.our-team-job 
-{
+.our-team-job{
     color: #434455;
     font-size: 16px;
     line-height: 24px;
@@ -360,8 +324,7 @@ p {
     padding: 120px 0;
 }
 
-.our-portfolio-block 
-{
+.our-portfolio-block{
     color: #2E2F42;
     font-size: 36px;
     line-height: 40px;
@@ -381,15 +344,13 @@ p {
     flex-wrap: wrap;
 }
 
-.our-portfolio-item
-{
+.our-portfolio-item{
     width: calc((100% - 48px)/ 3);
     gap: 32px;
     flex-shrink: 0;
 }
 
-.our-portfolio-container-text
-{
+.our-portfolio-container-text{
     display: block;
     gap: 8px;
     align-items: center;
@@ -398,8 +359,7 @@ p {
     border-top: none;
 }
 
-.our-portfolio-app 
-{
+.our-portfolio-app{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -411,8 +371,7 @@ p {
     margin-bottom: 8px;
 }
 
-.portfolio-field-of-activity
-{
+.portfolio-field-of-activity{
     color: #434455;
     font-size: 16px;
     line-height: 24px;
@@ -425,13 +384,12 @@ p {
 
 /* Footer */ 
 
-.footer 
-{
+.footer{
     background-color: #2E2F42;
     padding: 100px 0 100px;
 }
 
-.footer-logo {
+.footer-logo{
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -445,8 +403,7 @@ p {
     margin-top: 100px;
 }
 
-.footer-web 
-{
+.footer-web{
     color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
@@ -456,8 +413,7 @@ p {
     text-transform: uppercase;
 }
 
-.footer-studio 
-{
+.footer-studio{
     color: #F4F4FD;
     font-family: Raleway;
     font-size: 18px;
@@ -467,8 +423,7 @@ p {
     text-transform: uppercase;
 }
 
-.footer-text 
-{
+.footer-text{
     color: #F4F4FD;
     font-size: 12px;
     line-height: 1.5;

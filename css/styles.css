@@ -377,10 +377,8 @@ p {
 }
 .our-portfolio-list{
     display: flex;
-    gap: 24px;
+    gap: 48px 24px;
     flex-wrap: wrap;
-    margin-bottom: 48px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .our-portfolio-item
@@ -388,11 +386,6 @@ p {
     width: calc((100% - 48px) / 3);
     gap: 32px;
     flex-shrink: 0;
-}
-.our-portfolio-photo
-{
-    display: flex;
-    margin-bottom: 32px;
 }
 
 .our-portfolio-container-text

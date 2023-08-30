@@ -6,6 +6,8 @@
 
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 a{
@@ -282,11 +284,6 @@ p{
     background-color: #FFFFFF;
     flex-basis: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
-}
-
-.our-team-photo{
-    display: flex;
-    margin-bottom: 32px;
 }
 
 .our-team-container-text{

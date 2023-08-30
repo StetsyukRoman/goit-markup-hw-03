@@ -1,4 +1,4 @@
-.body{
+body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
@@ -68,7 +68,6 @@ p{
     text-transform: uppercase;
     display: flex;
     align-items: flex-start;
-    margin-left: 15px;
     margin-right: 76px;
 }
 
@@ -132,8 +131,6 @@ p{
     display: flex;
     gap: 40px;
     align-items: center;
-    margin-right: 15px;
-    padding: 24px 0;
 }
 
 .header-link-address{
@@ -270,6 +267,7 @@ p{
     text-transform: capitalize;
     line-height: 1.11;
     text-align: center;
+    margin-top: 0;
     margin-bottom: 72px;
 }
 
@@ -315,14 +313,12 @@ p{
 /* section portfolio */
 
 .our-portfolio-section{
-    background: #F4F4FD;
     display: flex;
     justify-content: center;
     padding: 120px 0;
 }
 
 .our-portfolio-block{
-    color: #2E2F42;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.02em;
@@ -330,7 +326,7 @@ p{
     text-transform: capitalize;
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
@@ -364,7 +360,6 @@ p{
     letter-spacing: 0.02em;
     display: flex;
     justify-content: flex-start;
-    margin-left: 16px;
     margin-bottom: 8px;
 }
 
@@ -375,8 +370,6 @@ p{
     letter-spacing: 0.02em;
     display: flex;
     justify-content: flex-start;
-    margin-left: 16px;
-    margin-bottom: 32px;
 }
 
 /* Footer */ 
@@ -397,7 +390,6 @@ p{
     display: inline-block;
     justify-content: flex-start;
     margin-bottom: 16px;
-    margin-top: 100px;
 }
 
 .footer-web{
@@ -422,11 +414,10 @@ p{
 
 .footer-text{
     color: #F4F4FD;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
     max-width: 264px;
     justify-content: flex-start;
-    margin-bottom: 100px;
 }
